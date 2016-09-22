@@ -1,0 +1,24 @@
+{
+  "name": "glboost_demo_game",
+  "version": "1.0.0",
+  "description": "A demo game using GLBoost WebGL Library",
+  "scripts": {
+    "build": "webpack --progress --colors --watch --config ./webpack.config.dev.js",
+    "build:prod": "webpack --config ./webpack.config.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emadurandal/GLBoost_DEMO_GAME.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/emadurandal/GLBoost_DEMO_GAME/issues"
+  },
+  "homepage": "https://github.com/emadurandal/GLBoost_DEMO_GAME#readme",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0",
+    "typings": "^1.3.2",
+    "webpack": "^1.13.1"
+  }
+}
